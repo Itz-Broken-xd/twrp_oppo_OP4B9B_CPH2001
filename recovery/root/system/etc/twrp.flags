@@ -10,3 +10,4 @@
 # Removable storage
 /external_sd     auto    /dev/block/mmcblk0p1    /dev/block/mmcblk0
 #TODO: add USB OTG
+/usb_otg         auto     /dev/block/sdd1        /dev/block/sda                 flags=display="Usb-Otg_sdd1";storage;removable;backup=0;wipeingui
